@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+/* .banner{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+} */
+.banner1{
+    width: 100%;
+    height: 270vh;
+    background-color: black;
+}
+
+
+
+.text1{
+    color: #fff;
+    font-family:  Heebo,sans-serif; 
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    
+
+}
+.text2{
+    color: #fff;
+    font-family: monospace;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 5px;
+
+}
+.cont{
+    padding-top: 120px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #000;
+}
+
+form:last-child {
+    border-right: none;
+}
+
+form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+.form-group-custom {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: monospace;
+    width: 90%;
+    display: flex;
+    font-size: 17px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: monospace;
+    width: 90%;
+    font-size: 17px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-family: monospace;
+} 
+
+input[type="submit"]:hover {
+    background-color: #333;
+} 
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    text-align: center;
+}
+
+.popup button {
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-family: monospace;
+}
+
+.text10{
+    font-size: 40px;
+
+}
+.text11{
+    font-size: 25px;
+}
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: 'Heebo', sans-serif; 
+    font-size: 14px; 
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+     
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%
+
+}
+
+.banner20{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+}
+
+
+
+
+
+
+.footer-basic {
+    padding:40px 0;
+    background-color:black;
+    color: white;
+    
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid rgb(237, 226, 226);
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:20px;
+    text-align:center;
+    font-size:13px;
+    color: white;
+    margin-bottom:0;
+    font-family: Heebo;
+  }
+  .footer-basic i{
+    font-size: 25px;
+  }
+
+
+

@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* .background-img{
+    background-image: url('file:///C:/Users/aryan%20dhas/Downloads/backgroundimg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+
+
+    
+} */
+
+
+.banner {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+
+.text1 {
+    color: #fff;
+    font-family: Heebo, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 75px;
+
+}
+
+.text2 {
+    color: #fff;
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+
+}
+
+.text3 {
+    font-size: 150px;
+    color: #fff;
+
+
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 50px;
+
+
+}
+
+.img-container {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1px;
+
+}
+
+.image1 {
+
+    padding: 30px;
+    max-width: 300px;
+    border-radius: 50%;
+    max-height: 300px;
+
+
+
+}
+
+.text-over {
+    color: #fff;
+    padding-bottom: 100px;
+    font-family: Heebo, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.banner1 {
+    width: 100%;
+    height: 175vh;
+    background-color: black;
+
+}
+
+.text4 {
+    color: #fff;
+    padding-top: 15px;
+
+    font-family: monospace;
+
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* .banner2{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+} */
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after {
+    width: 100%
+}
+
+.banner20 {
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+}
+
+.banner2 {
+
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: black;
+    color: white;
+
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(237, 226, 226);
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 0;
+    font-family: Heebo;
+}
+
+.footer-basic i {
+    font-size: 25px;
+}
+
+.text20 {
+
+
+    color: #fff;
+    padding-top: 5px;
+
+    font-family: monospace;
+
+    font-size: 20px;
+    text-transform: uppercase;
+
+}

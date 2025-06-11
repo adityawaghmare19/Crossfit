@@ -1,0 +1,1 @@
+CREATE TABLE `gym`.`user_form1` (`name` VARCHAR(20) NOT NULL , `email` VARCHAR(25) NOT NULL , `password` VARCHAR(5) NOT NULL , `user_type` VARCHAR(10)
